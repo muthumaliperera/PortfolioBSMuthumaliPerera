@@ -1,4 +1,5 @@
-$primary:#055b68;
+$primary:rgb(5, 91, 104);
+$secondary:#ffa200;
 $dark:rgb(32, 32, 32);
 
 
@@ -8,10 +9,12 @@ $dark:rgb(32, 32, 32);
 
 $custom-theme-colors:(
     "color1":#055b68,
-    "color2":#0c94a9,
+    "color2":rgb(1, 76, 87),
     "color3":#f2fdfe,
     "color4":#ffa200,
-    "color5":#ffe7be,
+    "color5":#ffefd4,
+    "color6":rgb(26, 26, 26),
+    "color7":rgb(22, 22, 22),
     
     
     "altdark":rgb(32, 32, 32)
@@ -19,6 +22,26 @@ $custom-theme-colors:(
 
 $theme-colors:map-merge($custom-theme-colors , $theme-colors );
 
-
+.personalInterestIcons {
+    background-color: map-get($custom-theme-colors, 'color4');
+    // padding: 5px;
+    text-align: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    font-size: 20px;
+    padding-top: 5px;
+}
+.skillIcons{
+    background-color: map-get($custom-theme-colors, 'color4');
+    // padding: 5px;
+    text-align: center;
+    color: #055b68;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    font-size: 20px;
+    padding-top: 8px;
+}
 
 @import './node_modules/bootstrap/scss/bootstrap.scss'
