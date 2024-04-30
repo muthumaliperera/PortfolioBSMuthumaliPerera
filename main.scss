@@ -22,6 +22,27 @@ $custom-theme-colors:(
 
 $theme-colors:map-merge($custom-theme-colors , $theme-colors );
 
+
+//pagination
+
+
+
+
+$pagination-focus-color:            $light;
+$pagination-focus-bg:               $primary;
+$pagination-focus-box-shadow:       none;
+$pagination-focus-outline:          none;
+
+$pagination-border-color:           var(--#{$prefix}border-color);
+
+
+
+
+//tooltip
+$tooltip-bg:                        $light;
+$tooltip-color:                     $dark;
+$tooltip-font-size:                 17px;
+
 .personalInterestIcons {
     background-color: map-get($custom-theme-colors, 'color4');
     // padding: 5px;
@@ -43,5 +64,21 @@ $theme-colors:map-merge($custom-theme-colors , $theme-colors );
     font-size: 20px;
     padding-top: 8px;
 }
+.projects{
+    height: 85vh;
+    background: url('./assets/download.gif') rgba(0, 0, 0, 0.736);
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+}
+.scrollable {
+    overflow-x: auto;
+    white-space: nowrap;
+  }
+
+  
+
+
 
 @import './node_modules/bootstrap/scss/bootstrap.scss'

@@ -20,6 +20,20 @@
   padding-top: 8px;
 }
 
+.projects {
+  height: 85vh;
+  background: url("./assets/download.gif") rgba(0, 0, 0, 0.736);
+  background-blend-mode: multiply;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.scrollable {
+  overflow-x: auto;
+  white-space: nowrap;
+}
+
 /*!
  * Bootstrap  v5.3.3 (https://getbootstrap.com/)
  * Copyright 2011-2024 The Bootstrap Authors
@@ -5011,9 +5025,9 @@ textarea.form-control-lg {
   --bs-pagination-hover-color: var(--bs-link-hover-color);
   --bs-pagination-hover-bg: var(--bs-tertiary-bg);
   --bs-pagination-hover-border-color: var(--bs-border-color);
-  --bs-pagination-focus-color: var(--bs-link-hover-color);
-  --bs-pagination-focus-bg: var(--bs-secondary-bg);
-  --bs-pagination-focus-box-shadow: 0 0 0 0.25rem rgba(5, 91, 104, 0.25);
+  --bs-pagination-focus-color: #f8f9fa;
+  --bs-pagination-focus-bg: rgb(5, 91, 104);
+  --bs-pagination-focus-box-shadow: none;
   --bs-pagination-active-color: #fff;
   --bs-pagination-active-bg: rgb(5, 91, 104);
   --bs-pagination-active-border-color: rgb(5, 91, 104);
@@ -5051,7 +5065,7 @@ textarea.form-control-lg {
   z-index: 3;
   color: var(--bs-pagination-focus-color);
   background-color: var(--bs-pagination-focus-bg);
-  outline: 0;
+  outline: none;
   box-shadow: var(--bs-pagination-focus-box-shadow);
 }
 .page-link.active, .active > .page-link {
@@ -6190,9 +6204,9 @@ textarea.form-control-lg {
   --bs-tooltip-padding-x: 0.5rem;
   --bs-tooltip-padding-y: 0.25rem;
   --bs-tooltip-margin: ;
-  --bs-tooltip-font-size: 0.875rem;
-  --bs-tooltip-color: var(--bs-body-bg);
-  --bs-tooltip-bg: var(--bs-emphasis-color);
+  --bs-tooltip-font-size: 1.0625rem;
+  --bs-tooltip-color: rgb(32, 32, 32);
+  --bs-tooltip-bg: #f8f9fa;
   --bs-tooltip-border-radius: var(--bs-border-radius);
   --bs-tooltip-opacity: 0.9;
   --bs-tooltip-arrow-width: 0.8rem;
