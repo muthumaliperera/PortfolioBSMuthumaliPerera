@@ -41,16 +41,16 @@ $pagination-border-color:           var(--#{$prefix}border-color);
 //tooltip
 $tooltip-bg:                        $light;
 $tooltip-color:                     $dark;
-$tooltip-font-size:                 17px;
+$tooltip-font-size:                 15px;
 
 .personalInterestIcons {
     background-color: map-get($custom-theme-colors, 'color4');
     // padding: 5px;
     text-align: center;
-    width: 40px;
-    height: 40px;
+    width: 30px;
+    height: 30px;
     border-radius: 20px;
-    font-size: 20px;
+    font-size: 15px;
     padding-top: 5px;
 }
 .skillIcons{

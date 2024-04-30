@@ -2,10 +2,10 @@
 .personalInterestIcons {
   background-color: #ffa200;
   text-align: center;
-  width: 40px;
-  height: 40px;
+  width: 30px;
+  height: 30px;
   border-radius: 20px;
-  font-size: 20px;
+  font-size: 15px;
   padding-top: 5px;
 }
 
@@ -6204,7 +6204,7 @@ textarea.form-control-lg {
   --bs-tooltip-padding-x: 0.5rem;
   --bs-tooltip-padding-y: 0.25rem;
   --bs-tooltip-margin: ;
-  --bs-tooltip-font-size: 1.0625rem;
+  --bs-tooltip-font-size: 0.9375rem;
   --bs-tooltip-color: rgb(32, 32, 32);
   --bs-tooltip-bg: #f8f9fa;
   --bs-tooltip-border-radius: var(--bs-border-radius);
