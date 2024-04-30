@@ -21,7 +21,7 @@
 }
 
 .projects {
-  height: 85vh;
+  height: auto;
   background: url("./assets/download.gif") rgba(0, 0, 0, 0.736);
   background-blend-mode: multiply;
   background-repeat: no-repeat;
